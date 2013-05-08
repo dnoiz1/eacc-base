@@ -10,9 +10,8 @@
         "silverstripe/spamprotection": "dev-master",
         "silverstripe/recaptcha": "dev-master",
         "silverstripe/tagfield": "dev-master",
-        "silverstripe/queuedjobs": "dev-master",
-        "silverstripe/memberprofiles": "dev-master"
         "silverstripe/timedropdownfield": "dev-master"
+        "silverstripe/multivaluefield": "dev-master"
 	},
 	"minimum-stability": "dev"
 }

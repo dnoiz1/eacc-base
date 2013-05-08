@@ -1,0 +1,21 @@
+[submodule "queuedjobs"]
+	path = queuedjobs
+	url = git@github.com:dnoiz1/silverstripe-queuedjobs.git
+[submodule "timedropdownfield"]
+	path = timedropdownfield
+	url = git://github.com/silverstripe-labs/silverstripe-timedropdownfield.git
+[submodule "smtp"]
+	path = smtp
+	url = git://github.com/xeraa/silverstripe-smtp.git
+[submodule "tagfield"]
+	path = tagfield
+	url = git@github.com:chillu/silverstripe-tagfield.git
+[submodule "memberprofiles"]
+	path = memberprofiles
+	url = git@github.com:dnoiz1/silverstripe-memberprofiles.git
+[submodule "eacc"]
+	path = eacc
+	url = git@github.com:dnoiz1/eve-riot.git
+[submodule "themes/bootstrap"]
+	path = themes/bootstrap
+	url = git@github.com:dnoiz1/eve-eacc-theme.git

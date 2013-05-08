@@ -24,9 +24,10 @@ framework
 cms
 composer.lock
 composer.phar
-eacc
 README.md
 recaptcha
 requirements
 sqlite3
-themes/*
+multivaluefield
+spamprotection
+timedropdownfield
