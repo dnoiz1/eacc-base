@@ -1,0 +1,501 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "6c23b07b3d07e392a1769110d2a910ab269aaa3d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/6c23b07b3d07e392a1769110d2a910ab269aaa3d",
+            "reference": "6c23b07b3d07e392a1769110d2a910ab269aaa3d",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-04-22 16:11:49",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "TYPO3 Flow",
+            "TYPO3 Neos",
+            "agl",
+            "cakephp",
+            "codeigniter",
+            "drupal",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "li3",
+            "lithium",
+            "mako",
+            "phpbb",
+            "ppi",
+            "silverstripe",
+            "symfony",
+            "wordpress",
+            "yii",
+            "zend"
+        ]
+    },
+    {
+        "name": "silverstripe-themes/simple",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
+            "reference": "af748fa6f958a21b9f401983943b55f3e274d9f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/af748fa6f958a21b9f401983943b55f3e274d9f7",
+            "reference": "af748fa6f958a21b9f401983943b55f3e274d9f7",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "silverstripe/framework": ">=3.0"
+        },
+        "time": "2013-04-09 11:41:32",
+        "type": "silverstripe-theme",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sara Tušar (Innovaif)",
+                "homepage": "http://www.saratusar.com"
+            }
+        ],
+        "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
+        "keywords": [
+            "silverstripe",
+            "theme"
+        ]
+    },
+    {
+        "name": "silverstripe/sqlite3",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silverstripe-labs/silverstripe-sqlite3.git",
+            "reference": "3766c67a1728e13a8f105058a6cde6eca5ef9d01"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-sqlite3/zipball/3766c67a1728e13a8f105058a6cde6eca5ef9d01",
+            "reference": "3766c67a1728e13a8f105058a6cde6eca5ef9d01",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/framework": "3.*"
+        },
+        "time": "2013-04-01 18:24:29",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Ingo Schommer",
+                "email": "ingo@silverstripe.com",
+                "homepage": "http://chillu.com",
+                "role": "tech-lead"
+            },
+            {
+                "name": "Sean Harvey",
+                "email": "sean@silverstripe.com",
+                "homepage": "http://www.silverstripe.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Adds SQLite3 support to SilverStripe",
+        "keywords": [
+            "database",
+            "silverstripe",
+            "sqlite3"
+        ]
+    },
+    {
+        "name": "silverstripe/spamprotection",
+        "version": "1.0.x-dev",
+        "version_normalized": "1.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silverstripe/silverstripe-spamprotection.git",
+            "reference": "74b799005821cc601eb4f5927eb822858249b848"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/74b799005821cc601eb4f5927eb822858249b848",
+            "reference": "74b799005821cc601eb4f5927eb822858249b848",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/framework": "3.0.*"
+        },
+        "time": "2013-04-05 08:19:05",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Saophalkun Ponlu",
+                "email": "phalkunz@silverstripe.com"
+            },
+            {
+                "name": "Will Rossiter",
+                "email": "will@fullscreen.io",
+                "homepage": "http://wilr.github.com"
+            }
+        ],
+        "description": "Spam protection module for SilverStripe.",
+        "keywords": [
+            "silverstripe",
+            "spamprotection"
+        ]
+    },
+    {
+        "name": "silverstripe/recaptcha",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chillu/silverstripe-recaptcha.git",
+            "reference": "c9c94514f759162c6b95354b383e26624d3ebbcb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chillu/silverstripe-recaptcha/zipball/c9c94514f759162c6b95354b383e26624d3ebbcb",
+            "reference": "c9c94514f759162c6b95354b383e26624d3ebbcb",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/framework": "3.*",
+            "silverstripe/spamprotection": "*"
+        },
+        "time": "2013-04-04 12:38:22",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Ingo Schommer",
+                "email": "ingo@silverstripe.com",
+                "homepage": "http://chillu.com",
+                "role": "tech-lead"
+            }
+        ],
+        "description": "Provides a form field which allows form to validate for non-bot submissions by giving them a challenge to decrypt an image.",
+        "keywords": [
+            "silverstripe",
+            "spamprotection"
+        ]
+    },
+    {
+        "name": "silverstripe/tagfield",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chillu/silverstripe-tagfield.git",
+            "reference": "a6430f4e5ecedc523ee338daa44530740564348c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chillu/silverstripe-tagfield/zipball/a6430f4e5ecedc523ee338daa44530740564348c",
+            "reference": "a6430f4e5ecedc523ee338daa44530740564348c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "silverstripe/framework": "3.*"
+        },
+        "time": "2013-04-05 15:36:12",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ingo Schommer",
+                "email": "ingo@silverstripe.com",
+                "homepage": "http://chillu.com",
+                "role": "tech-lead"
+            }
+        ],
+        "description": "Provides a SilverStripe form field for saving a string of tags into either a many_many relationship or a text property. ",
+        "keywords": [
+            "Forms",
+            "silverstripe",
+            "tags"
+        ]
+    },
+    {
+        "name": "silverstripe/multivaluefield",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nyeholt/silverstripe-multivaluefield.git",
+            "reference": "a939a500c922cbb47628a82c90caaae6247bad83"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nyeholt/silverstripe-multivaluefield/zipball/a939a500c922cbb47628a82c90caaae6247bad83",
+            "reference": "a939a500c922cbb47628a82c90caaae6247bad83",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/framework": ">=3.0.0"
+        },
+        "time": "2013-04-10 01:28:22",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Nyeholt",
+                "email": "marcus@silverstripe.com.au"
+            }
+        ],
+        "description": "A DB field + form fields for storing multiple values in a single property (serialized).",
+        "keywords": [
+            "dbfield",
+            "formfield",
+            "silverstripe"
+        ]
+    },
+    {
+        "name": "silverstripe/queuedjobs",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nyeholt/silverstripe-queuedjobs.git",
+            "reference": "d7ed18e2bd2920b07ed670f681d5bd597c271a25"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nyeholt/silverstripe-queuedjobs/zipball/d7ed18e2bd2920b07ed670f681d5bd597c271a25",
+            "reference": "d7ed18e2bd2920b07ed670f681d5bd597c271a25",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/cms": ">=3.0.0",
+            "silverstripe/multivaluefield": "dev-master"
+        },
+        "time": "2013-05-01 11:57:16",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Nyeholt",
+                "email": "marcus@silverstirpe.com.au"
+            }
+        ],
+        "description": "A framework for defining and running background jobs in a queued manner",
+        "keywords": [
+            "jobs",
+            "silverstripe"
+        ]
+    },
+    {
+        "name": "silverstripe/memberprofiles",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ajshort/silverstripe-memberprofiles.git",
+            "reference": "ceea2da8ac02d301a28c5046fc6c01f4eb022cc9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ajshort/silverstripe-memberprofiles/zipball/ceea2da8ac02d301a28c5046fc6c01f4eb022cc9",
+            "reference": "ceea2da8ac02d301a28c5046fc6c01f4eb022cc9",
+            "shasum": ""
+        },
+        "require": {
+            "silverstripe/cms": "3.*",
+            "silverstripe/framework": "3.*"
+        },
+        "replace": {
+            "silverstripe/memberprofiles": "*"
+        },
+        "suggest": {
+            "ajshort/silverstripe-gridfieldextensions": "Allows drag-and-drop reordering of fields"
+        },
+        "time": "2013-04-26 11:31:06",
+        "type": "silverstripe-module",
+        "extra": {
+            "installer-name": "memberprofiles",
+            "screenshots": [
+                "http://ajshort.github.com/silverstripe-memberprofiles/screenshots/edit-profile.png",
+                "http://ajshort.github.com/silverstripe-memberprofiles/screenshots/cms-profile-fields.png",
+                "http://ajshort.github.com/silverstripe-memberprofiles/screenshots/member-list.png"
+            ]
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Andrew Short",
+                "email": "andrewjshort@gmail.com"
+            }
+        ],
+        "description": "Member registration and profile management",
+        "keywords": [
+            "member",
+            "profile",
+            "registration",
+            "silverstripe"
+        ]
+    },
+    {
+        "name": "silverstripe/framework",
+        "version": "3.0.x-dev",
+        "version_normalized": "3.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silverstripe/sapphire.git",
+            "reference": "a5d69f2bf5b8083095a2c63576f33a1b407cdc79"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silverstripe/sapphire/zipball/a5d69f2bf5b8083095a2c63576f33a1b407cdc79",
+            "reference": "a5d69f2bf5b8083095a2c63576f33a1b407cdc79",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "php": ">=5.3.2"
+        },
+        "time": "2013-05-03 03:04:30",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "tests/behat/features/bootstrap"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "SilverStripe",
+                "homepage": "http://silverstripe.com"
+            },
+            {
+                "name": "The SilverStripe Community",
+                "homepage": "http://silverstripe.org"
+            }
+        ],
+        "description": "The SilverStripe framework",
+        "homepage": "http://silverstripe.org",
+        "keywords": [
+            "framework",
+            "silverstripe"
+        ]
+    },
+    {
+        "name": "silverstripe/cms",
+        "version": "3.0.x-dev",
+        "version_normalized": "3.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silverstripe/silverstripe-cms.git",
+            "reference": "04bb85a78da801c5d0220a38f91e3be09b4e4a30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/04bb85a78da801c5d0220a38f91e3be09b4e4a30",
+            "reference": "04bb85a78da801c5d0220a38f91e3be09b4e4a30",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "php": ">=5.3.2",
+            "silverstripe/framework": "3.0.*"
+        },
+        "time": "2013-04-04 08:58:11",
+        "type": "silverstripe-module",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "tests/behat/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "SilverStripe",
+                "homepage": "http://silverstripe.com"
+            },
+            {
+                "name": "The SilverStripe Community",
+                "homepage": "http://silverstripe.org"
+            }
+        ],
+        "description": "The SilverStripe Content Management System",
+        "homepage": "http://silverstripe.org",
+        "keywords": [
+            "cms",
+            "silverstripe"
+        ]
+    }
+]
