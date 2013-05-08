@@ -1,17 +1,17 @@
 {
-	"name": "silverstripe/ozzy",
-	"description": "Ozzy: the SilverStripe Australia base project installer",
-	"require": {
-		"php": ">=5.3.2",
-		"silverstripe/cms": "3.1.0-beta3",
-		"silverstripe/framework": "3.1.0-beta3",
-		"silverstripe-themes/simple": "*",
-		"silverstripe/sqlite3": "dev-master",
+    "name": "silverstripe/eacc",
+    "description": "EVE Alliance Coalition Core base package",
+    "require": {
+        "php": ">=5.3.2",
+        "silverstripe/cms": "3.1.x",
+        "silverstripe/framework": "3.1.x",
+        "silverstripe-themes/simple": "*",
+        "silverstripe/sqlite3": "dev-master",
         "silverstripe/spamprotection": "dev-master",
         "silverstripe/recaptcha": "dev-master",
         "silverstripe/tagfield": "dev-master",
-        "silverstripe/timedropdownfield": "dev-master"
+        "silverstripe/timedropdownfield": "dev-master",
         "silverstripe/multivaluefield": "dev-master"
-	},
-	"minimum-stability": "dev"
+    },
+    "minimum-stability": "dev"
 }
