@@ -42,4 +42,4 @@ $coreCache = Zend_Cache::factory(
 
 Zend_Date::setOptions(array('cache' => $coreCache));
 
-
+Security::config()->login_recording = true;
