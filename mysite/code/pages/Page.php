@@ -39,40 +39,20 @@ class Page_Controller extends ContentController {
 		parent::init();
         $ThemeDir =  $this->ThemeDir();
 //        Requirements::set_write_js_to_body(false);
-        Requirements::set_write_js_to_body(true);
-        Requirements::set_combined_files_folder('requirements');
+//        Requirements::set_write_js_to_body(true);
+        //Requirements::set_combined_files_folder('requirements');
         Requirements::combine_files(
             'site.css',
             array(
                 $ThemeDir.'/css/bootstrap.css',
-                $ThemeDir.'/css/responsive.css',
+                //$ThemeDir.'/css/darkstrap.min.css',
+                $ThemeDir.'/css/dinner.css',
+                $ThemeDir.'/css/responsive.css'
             )
         );
 
 //        Requirements::javascript("//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js");
-        Requirements::combine_files(
-            'site.js',
-            array(
-                $ThemeDir.'/javascript/libs.js',
-                $ThemeDir.'/javascript/bootstrap/bootstrap-affix.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-alert.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-button.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-carousel.js',
-                $ThemeDir.'/javascript/bootstrap/bootstrap-collapse.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-dropdown.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-modal.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-popover.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-scrollspy.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-tab.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-tooltip.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-transition.js',
-//                $ThemeDir.'/javascript/bootstrap/bootstrap-typeahead.js',
-                $ThemeDir.'/javascript/main.js'
-            )
-        );
-
-//		if($m = Member::CurrentUser()) var_dump($m);
-
+        Requirements::javascript( $ThemeDir.'/javascript/bootstrap.min.js');
     }
 
     public function GetLinkFromID($id = 1) {

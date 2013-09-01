@@ -43,3 +43,9 @@ $coreCache = Zend_Cache::factory(
 Zend_Date::setOptions(array('cache' => $coreCache));
 
 Security::config()->login_recording = true;
+
+BootstrapForm::config()->bootstrap_included = true;
+BootstrapForm::config()->jquery_included = true;
+
+//if(!defined('CLI')) Director::forceSSL();
+if(!Director::is_cli()) Director::forceWWW();
